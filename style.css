@@ -1,1 +1,26 @@
-
+main{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,212,1) 100%);
+}
+.name{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.avatar-block > img{
+    border-radius: 10px;
+}
+.avatar-block > img:hover{
+    transform: scale(0.9);
+}
+.WhoIAm{
+    border: solid;
+    padding: 10px;
+}
+.icon{
+    width: 8%;
+}
+.page{
+    border-style: dashed;
+    border-width: 10px;
+    border-radius: 20px;
+}
