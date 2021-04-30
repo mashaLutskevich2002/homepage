@@ -19,6 +19,9 @@ main{
 .icon{
     width: 8%;
 }
+.icon:hover{
+    width: 10%;
+}
 .page{
     border-style: dashed;
     border-width: 10px;
