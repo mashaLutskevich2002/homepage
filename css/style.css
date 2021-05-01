@@ -15,7 +15,7 @@ main{
 .WhoIAm{
     border: solid;
     padding: 10px;
-}
+}   
 .icon{
     width: 8%;
 }
@@ -27,3 +27,25 @@ main{
     border-width: 10px;
     border-radius: 20px;
 }
+.textBlock{
+    display: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium ;   
+}
+
+.blockExp{
+    width: 120px;
+    border: solid grey 2px;
+}
+.blockExp:nth-child(odd){
+    margin-left: 450px;
+}
+.blockExp:hover{
+    background-color: lightgray;
+}
+.nameExperience{
+    text-align: center;
+}
+
+
+
