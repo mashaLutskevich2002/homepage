@@ -15,7 +15,11 @@ main{
 .WhoIAm{
     border: solid;
     padding: 10px;
-}   
+}  
+.WhoIAm:hover{
+    background-color: lightgray;
+    
+} 
 .icon{
     width: 8%;
 }
@@ -38,14 +42,50 @@ main{
     border: solid grey 2px;
 }
 .blockExp:nth-child(odd){
-    margin-left: 450px;
+    margin-left: 150px;
 }
 .blockExp:hover{
     background-color: lightgray;
 }
-.nameExperience{
+.nameTitle{
+    font-size: 20px;
     text-align: center;
 }
 
+.career{
+    border: solid grey 2px;
+}
+.career:hover{
+    border-style: dotted;
+    
+}
+.languagesIcon{
+    width: 20%;
+}
 
+.lastBlock{
+    display: flex;
+    flex-wrap: wrap;	
 
+}
+table{
+    border: solid grey 2px;
+}
+.border{
+   
+	width: 300px;
+    border: solid grey 5px;
+    margin-right: 10px;
+}
+.border:hover{
+    background-color: lightgray;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    border-radius: 15px;
+}
