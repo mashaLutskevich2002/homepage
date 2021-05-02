@@ -1,0 +1,91 @@
+main{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,212,1) 100%);
+}
+.name{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.avatar-block > img{
+    border-radius: 10px;
+}
+.avatar-block > img:hover{
+    transform: scale(0.9);
+}
+.WhoIAm{
+    border: solid;
+    padding: 10px;
+}  
+.WhoIAm:hover{
+    background-color: lightgray;
+    
+} 
+.icon{
+    width: 8%;
+}
+.icon:hover{
+    width: 10%;
+}
+.page{
+    border-style: dashed;
+    border-width: 10px;
+    border-radius: 20px;
+}
+.textBlock{
+    display: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium ;   
+}
+
+.blockExp{
+    width: 120px;
+    border: solid grey 2px;
+}
+.blockExp:nth-child(odd){
+    margin-left: 150px;
+}
+.blockExp:hover{
+    background-color: lightgray;
+}
+.nameTitle{
+    font-size: 20px;
+    text-align: center;
+}
+
+.career{
+    border: solid grey 2px;
+}
+.career:hover{
+    border-style: dotted;
+    
+}
+.languagesIcon{
+    width: 20%;
+}
+
+.lastBlock{
+    display: flex;
+    flex-wrap: wrap;	
+
+}
+table{
+    border: solid grey 2px;
+}
+.border{
+   
+	width: 300px;
+    border: solid grey 5px;
+    margin-right: 10px;
+}
+.border:hover{
+    background-color: lightgray;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    border-radius: 15px;
+}
