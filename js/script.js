@@ -20,7 +20,6 @@ const blockNineteen = document.getElementById('bl1978');
 const blockTwenty = document.getElementById('bl1971');
 const blockTwentyOne = document.getElementById('bl1968');
 
-
 const clickEventhandler = (blockText) => {
     
     if(blockText.style.display === 'none'){
