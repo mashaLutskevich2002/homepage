@@ -1,91 +1,107 @@
-main{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,212,1) 100%);
-}
-.name{
+main {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 233, 212, 1) 100%);
+  }
+  
+  .name {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.avatar-block > img{
+  }
+  
+  .avatar-block > img {
     border-radius: 10px;
-}
-.avatar-block > img:hover{
+  }
+  
+  .avatar-block > img:hover {
     transform: scale(0.9);
-}
-.WhoIAm{
+  }
+  
+  .WhoIAm {
     border: solid;
     padding: 10px;
-}  
-.WhoIAm:hover{
+  }
+  
+  .WhoIAm:hover {
     background-color: lightgray;
-    
-} 
-.icon{
+  }
+  
+  .icon {
     width: 8%;
-}
-.icon:hover{
+  }
+  
+  .icon:hover {
     width: 10%;
-}
-.page{
+  }
+  
+  .page {
     border-style: dashed;
     border-width: 10px;
     border-radius: 20px;
-}
-.textBlock{
+  }
+  
+  .textBlock {
     display: none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium ;   
-}
-
-.blockExp{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+  }
+  
+  .blockExp {
     width: 120px;
     border: solid grey 2px;
-}
-.blockExp:nth-child(odd){
+  }
+  
+  .blockExp:nth-child(odd) {
     margin-left: 150px;
-}
-.blockExp:hover{
+  }
+  
+  .blockExp:hover {
     background-color: lightgray;
-}
-.nameTitle{
+  }
+  
+  .nameTitle {
     font-size: 20px;
     text-align: center;
-}
-
-.career{
+  }
+  
+  .career {
     border: solid grey 2px;
-}
-.career:hover{
+  }
+  
+  .career:hover {
     border-style: dotted;
-    
-}
-.languagesIcon{
+  }
+  
+  .languagesIcon {
     width: 20%;
-}
-
-.lastBlock{
+  }
+  
+  .lastBlock {
     display: flex;
-    flex-wrap: wrap;	
-
-}
-table{
+    flex-wrap: wrap;
+  }
+  
+  table {
     border: solid grey 2px;
-}
-.border{
-   
-	width: 300px;
+  }
+  
+  .border {
+    width: 300px;
     border: solid grey 5px;
     margin-right: 10px;
-}
-.border:hover{
+  }
+  
+  .border:hover {
     background-color: lightgray;
-}
-.video{
+  }
+  
+  .video {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-video{
+  }
+  
+  video {
     border-radius: 15px;
-}
+  }
+  
